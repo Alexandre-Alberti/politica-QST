@@ -4,7 +4,7 @@ Created on Sat Apr  5 10:09:19 2025
 
 @author: Thalia Queiroz
 """
-
+'''
 import time
 import numpy as np
 from scipy.stats import weibull_min
@@ -59,7 +59,7 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-
+'''
 
 # =============================================================================
 # Layout Superior – Cabeçalho com logo e título
