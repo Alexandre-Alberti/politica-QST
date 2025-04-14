@@ -4,7 +4,7 @@ Created on Sat Apr  5 10:09:19 2025
 
 @author: Thalia Queiroz
 """
-'''
+
 import time
 import numpy as np
 from scipy.stats import weibull_min
@@ -13,6 +13,7 @@ from scipy.optimize import minimize
 from scipy.optimize import differential_evolution
 import streamlit as st
 
+'''
 st.markdown("""
     <style>
         /* Fundo preto */
@@ -71,7 +72,7 @@ with col1:
 with col2:
     st.markdown("""
         <div style='display: flex; align-items: center; height: 100%;'>
-            <h1 style='color: white; text-align: left; font-size: 30px;'>
+            <h1 style='color: green; text-align: left; font-size: 30px;'>
                 Política de Manutenção Preventiva Oportuna em Três Fases (Política QST)
             </h1>
         </div>
