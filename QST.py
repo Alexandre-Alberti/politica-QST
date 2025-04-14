@@ -13,54 +13,7 @@ from scipy.optimize import minimize
 from scipy.optimize import differential_evolution
 import streamlit as st
 
-'''
-st.markdown("""
-    <style>
-        /* Fundo preto */
-        .stApp {
-            background-color: #000000;
-            color: white;
-        }
 
-        /* Títulos */
-        h1, h2, h3, h4, h5, h6 {
-            color: white;
-        }
-
-        /* Textos em geral */
-        .css-1cpxqw2, .css-10trblm, .css-1d391kg, .css-1v3fvcr {
-            color: white;
-        }
-
-        /* Input boxes e widgets */
-        .stNumberInput input {
-            background-color: #111;
-            color: white;
-            border: 1px solid #00ff88;
-        }
-
-        /* Botões */
-        .stButton > button {
-            background-color: #00ff88;
-            color: black;
-            border: none;
-            padding: 0.5em 1em;
-            border-radius: 10px;
-        }
-
-        /* Logo da barra lateral (se usar) */
-        .css-1aumxhk {
-            background-color: #000000;
-        }
-
-        /* Remove foco azul nos inputs */
-        input:focus, button:focus {
-            outline: none;
-            box-shadow: 0 0 0 2px #00ff88;
-        }
-    </style>
-""", unsafe_allow_html=True)
-'''
 
 # =============================================================================
 # Layout Superior – Cabeçalho com logo e título
