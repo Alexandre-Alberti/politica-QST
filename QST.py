@@ -66,7 +66,7 @@ st.markdown("""
 # =============================================================================
 col1, col2 = st.columns([1, 4])
 with col1:
-    st.image(r"C:\Users\Thalia\Desktop\Software\logo_random.png.png", use_container_width=True)
+    st.image("random.png")
 
 with col2:
     st.markdown("""
