@@ -504,7 +504,7 @@ if st.button("📊 Avaliar política pré-definida"):
     st.markdown("### 🎯 Desempenho da Política Informada")
     colm1, colm2 = st.columns(2)
     colm1.metric(label="💰 Taxa de Custo", value=f"{taxa_manual:.4f}")
-    colm2.metric(label="📈 MTBOF (h)", value=f"{MTBOF_manual:.2f}")
+    colm2.metric(label="📈 Tempo Médio entre Falhas Operacionais", value=f"{MTBOF_manual:.2f}")
 
 # =============================================================================
 # Rodapé
