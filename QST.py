@@ -483,7 +483,7 @@ if st.button("🚀 Otimizar"):
         col_res2.metric(label="🕒 S otimizado", value=f"{S_opt:.2f}")
         col_res3.metric(label="⏱️ T otimizado", value=f"{T_opt:.2f}")
         col_res4.metric(label="💰 Custo Mínimo", value=f"{taxa_ot:.4f}")
-        col_res5.metric(label="📈 MTBOF (h)", value=f"{MTBOF_opt:.2f}")
+        col_res5.metric(label="📈 Tempo Médio entre Falhas Operacionais", value=f"{MTBOF_opt:.2f}")
 
 # =============================================================================
 # AVALIAR POLÍTICA DEFINIDA MANUALMENTE
