@@ -19,8 +19,8 @@ import streamlit as st
 # Layout Superior – Cabeçalho com logo e título
 # =============================================================================
 col1, col2 = st.columns([1, 4])
-with col1:
-    st.image("random.png")
+#with col1:
+#    st.image("random.png")
 
 with col2:
     st.markdown("""
@@ -509,14 +509,14 @@ if st.button("📊 Avaliar política pré-definida"):
 # =============================================================================
 # Rodapé
 # =============================================================================
-st.markdown("""
-<hr style="border:0.5px solid #333;" />
+#st.markdown("""
+#<hr style="border:0.5px solid #333;" />
 
-<div style='color: #aaa; font-size: 13px; text-align: left;'>
-    <strong style="color: #ccc;">RANDOM - Grupo de Pesquisa em Risco e Análise de Decisão em Operações e Manutenção</strong><br>
-    Criado em 2012, o grupo reúne pesquisadores dedicados às áreas de risco, manutenção e modelagem de operações.<br>
-    <a href='http://random.org.br' target='_blank' style='color:#888;'>Acesse o site do RANDOM</a>
-</div>
-""", unsafe_allow_html=True)
+#<div style='color: #aaa; font-size: 13px; text-align: left;'>
+#    <strong style="color: #ccc;">RANDOM - Grupo de Pesquisa em Risco e Análise de Decisão em Operações e Manutenção</strong><br>
+#    Criado em 2012, o grupo reúne pesquisadores dedicados às áreas de risco, manutenção e modelagem de operações.<br>
+#    <a href='http://random.org.br' target='_blank' style='color:#888;'>Acesse o site do RANDOM</a>
+#</div>
+#""", unsafe_allow_html=True)
 
 
